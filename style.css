@@ -1,4 +1,4 @@
-*{
+ *{
     margin:0;
     padding:0;
 }
@@ -6,24 +6,39 @@
 .cabecalho{
     background-color: #383d58;
     color: white;
-    display: flex;
-    justify-content: space-around;
+    display:flex;
+    justify-content:space-around;
     padding:24px 0;
 }
 
 .cabecalho-imagem{
-    width: 20%;
+    width: 10%;
 }
-.cabecalho-lista-item{
-    display: inline-block;
+.cabecalho-item-lista{
+    display:inline-block;
     margin:0 16px;
     font-size:24px;
 }
 .escola-imagem{
-    width: 20%;
+    width: 20%; 
 }
 .escola{
-background-image: linear-gradient(#383E59 #4EBFE9);
-color:white;
-display:flex;
+    background-image: linear-gradient (#383d58 #4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 21px;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+.escola-texto{
+    padding: 20px 0;
+}
+.escola-div-conteudo{
+width: 35%;
+background-image: linear-gradient (#383d58 #4EBFE9);
+
 }
